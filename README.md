@@ -22,4 +22,4 @@ It enables simple and fast downloading of hourly weather data direct to Excel fr
 - Data from NIBIO Landbruksmeteorologisk tjeneste (LMT) AgroMetBase is lisenced under 'Norwegian license for public data' (NLOD): http://data.norge.no/nlod/
 
 ### Author:
-Klimadata-XL written by Peter G. Schild, Oslo Metropitan University & SINTEF Byggforsk in the period 2008-2018.
+Klimadata-XL written by Peter G. Schild, Oslo Metropitan University & SINTEF Byggforsk in the period 2008-2019.
