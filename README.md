@@ -9,12 +9,12 @@ It enables simple and fast downloading of hourly weather data direct to Excel fr
 - You can paste in data from your own sources, to use the quality-checking and gap-filling features
 - Downloads quality flags from Met.no, which indicate the quality of data for each hour
 - Vets data for jumps, extreme values, and static values (dead sensor); calculates sigma value for these errors (threshold sigma can be changed)
-- Finds outliers (calculates sigma value) by comparing observations between multiple nearby stations
+- Finds outliers (calculates sigma value) by comparing observations with multiple nearby stations
 - Hotkey CTRL+N jumps to the next period containing outlier values
 - Parameter-specific code for checking quality, e.g. checks relative humidity, dew-point and dry-bulb temperatures for equivalence
 - Special code for solar radiation (global, direct, or diffuse) including checking for incorrect time-stamp, correction for night-time calibration offset, automatic detection of obscuring features such as trees or masts that shade the pyranometer, and comparison with clear-sky irradiance (REST2-model)
 - Visualizes the data (scatter-plot comparing with nearby stations) and carpet plot
-- Parameter-specific gap-filling, which prioritizes moving observations from best-fit nearby stations (kriging), and if such data is unavailable then the gaps are filled by interpolation using a method similar to Kalman filter, which faithfully reproduces the diurnal profile.
+- Parameter-specific gap-filling, which prioritizes moving observations from best-fit nearby stations (kriging by regression), and if such data is unavailable then the gaps are filled by interpolation using a method similar to Kalman filter, which faithfully reproduces the diurnal profile.
 
 ### Licences:
 - The Klimadata-XL workbook and source code is free closed-source (Lisence CC BY-ND 4.0): https://creativecommons.org/licenses/by-nd/4.0/
